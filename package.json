@@ -1,0 +1,17 @@
+{
+  "name": "discord-cidadao-bot",
+  "version": "1.0.2",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=24.17.0 <25"
+  },
+  "dependencies": {
+    "discord.js": "14.21.0",
+    "dotenv": "16.4.5"
+  }
+}
